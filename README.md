@@ -55,9 +55,10 @@ Code available at:
 https://github.com/sauloorizaga/BHM-BCP
 
 ## Historical note
-The BCP model traces back to study of lamellar stability in 2D and 2D in 2016 (Physical Review E). Since
-then we attempted a variatey of numerical approaches and found that BHM is fast efficient
-and accurrate enoguht to capture BCP morohlogies. 
+The BCP model traces back to our study of lamellar stability under the influence of electric field
+in 2D and 2D in 2016 (Physical Review E). Since
+then we proposed a variatey of numerical approaches and found that BHM is fast efficient
+and accurrate enought (1st order) to capture BCP morphologies. 
 
 ## Contact
 We welcome questions, feedback, and potential collaboration 
