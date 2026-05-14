@@ -37,20 +37,13 @@ morphology evolution and energy dissipation figures:
 % ubar=0 (lamellar), ubar=0.35 (spheres)
 % Place BCP2D_BHM_solver.m in the same folder
 run BCP2D_main.m
-
+```
 
 Running **SCRIPT_REV.m** will generate the 3D BCP 
 isosurface morphology and energy dissipation figures:
 
 <img src="BCP3D_snap4_ubar17.png" width=400px height=400px>
 <img src="BCP3D_energy_ubar17.png" width=500px height=300px>
-
-
-% 3D simulation: N=128, Tf=100, dt=0.01, eps=0.1
-% ubar=0 (lamellar), ubar=0.17 (gyroid)
-% Place BCP3D_BHM_solver.m in the same folder
-run BCP3D_main.m
-```
 
 ## Citation
 If you use this code, please cite:
