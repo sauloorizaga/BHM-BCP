@@ -22,7 +22,7 @@ in both 2D and 3D with full reproducibility.
 - `BCP2D_BHM_solver.m` — 2D BHM solver function
 - `BCP2D_main.m` — 2D BCP simulation script
 - `BCP3D_BHM_solver.m` — 3D BHM solver function
-- `BCP3D_main.m` — 3D BCP simulation script
+- `SCRIPT_REV.m` — 3D BCP simulation script
 
 ## Output
 Running **BCP2D_main.m** will generate the 2D BCP 
@@ -44,6 +44,14 @@ isosurface morphology and energy dissipation figures:
 
 <img src="BCP3D_snap4_ubar17.png" width=400px height=400px>
 <img src="BCP3D_energy_ubar17.png" width=500px height=300px>
+
+## Usage
+```matlab
+% 3D simulation: N=128, Tf=100, dt=0.01, eps=0.1
+% ubar=0 (lamellar), ubar=0.17 (gyroid)
+% Place BCP3D_BHM_solver.m in same folder
+run SCRIPT_REV.m
+```
 
 ## Citation
 If you use this code, please cite:
