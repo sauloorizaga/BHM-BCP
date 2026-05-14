@@ -43,3 +43,26 @@ run BCP2D_main.m
 % Place BCP3D_BHM_solver.m in the same folder
 run BCP3D_main.m
 ```
+
+## Citation
+If you use this code, please cite:
+
+Orizaga, S. (2026).
+"A Simple and Efficient GPU-Accelerated Spectral Scheme 
+for the Block Copolymer Equation via the Biharmonic Modified Method"
+Submitted to Computational Materials Science.
+Code available at:
+https://github.com/sauloorizaga/BHM-BCP
+
+## Historical note
+The BCP model traces back to study of lamellar stability in 2D and 2D in 2016 (Physical Review E). Since
+then we attempted a variatey of numerical approaches and found that BHM is fast efficient
+and accurrate enoguht to capture BCP morohlogies. 
+
+## Contact
+We welcome questions, feedback, and potential collaboration 
+opportunities — feel free to reach out! <br>
+**Saulo Orizaga** — saulo.orizaga@nmt.edu <br>
+Associate Professor of Mathematics <br>
+New Mexico Institute of Mining and Technology <br>
+Socorro, NM 87801, USA.
